@@ -1,0 +1,15 @@
+
+
+
+
+1.  .env الى  .env.example  تغير اسم ملف.
+2. Open your .env file and change the database name (DB_DATABASE) and make new database.
+3. terminal نكتب الامر  composer install.
+4. Run php artisan key:generate.
+5. php artisan migrate:fresh --seed.
+6. Run php artisan serve.
+
+
+
+login   email = Admin@Admin.com
+        pass  = 123456
